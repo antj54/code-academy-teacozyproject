@@ -11,6 +11,8 @@ body {
     margin-top: 69px;
 }
 
+/* header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -23,17 +25,42 @@ header {
     background-color: black;
 }
 
-
-
-ul { display: flex;
-text-decoration: underline;
-list-style: none;
-gap: 30px;
-margin-right: 20px;
+ul { 
+    display: flex;
+    text-decoration: underline;
+    list-style: none;
+    gap: 30px;
+    margin-right: 20px;
 }
 
 #logo {
     height: 50px;
     margin-left: 20px;
 }
+
+/* hero */
+
+#hero {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url(./img/img-mission-background.jpg);
+    text-align: center;
+}
+
+#hero-text {
+    background-color: black;
+    position: relative;
+    top: 42%;
+}
+
+.mission-one {
+    padding-top: 10px;
+}
+
+.mission-two {
+    padding-bottom: 10px ;
+}
+
+/* Steeping */
 
