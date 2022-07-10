@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box ;
+    
 }
 
 body {
@@ -69,6 +70,7 @@ ul {
 #whats-steeping {
     width: 1000px;
     margin: auto;
+    margin-top: 50px;
 }
 
 #tea-text {
@@ -83,6 +85,7 @@ ul {
 
 #menu-bottom {
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     gap: 30px;
 }
@@ -102,4 +105,44 @@ ul {
 }
 
 /* Locations */
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    margin: 15px auto;
+    margin-top: 50px;
+    background-image: url(./img/img-locations-background.jpg);
+    text-align: center;
+}
+
+#locations-head {
+    margin-bottom: 15px;
+}
+
+#addresses {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+#locations-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8%
+}
+
+.content {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    align-self: center;
+    opacity: 1;
+}
+
+/* Contact Info */
+
 
