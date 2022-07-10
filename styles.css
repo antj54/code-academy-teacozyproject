@@ -145,4 +145,14 @@ ul {
 
 /* Contact Info */
 
+#contact-info {
+    text-align: center;
+    height: 200px;
+}
 
+/* footer */
+
+footer {
+    text-align: left;
+    padding: 20px;
+}
