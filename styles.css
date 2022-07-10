@@ -23,6 +23,7 @@ header {
     width: 100%;
     top: 0;
     background-color: black;
+    z-index: 1;
 }
 
 ul { 
@@ -62,7 +63,7 @@ ul {
     padding-bottom: 10px ;
 }
 
-/* Steeping */
+/* Tea of the Month */
 
 
 #whats-steeping {
@@ -74,6 +75,18 @@ ul {
     text-align: center;
 }
 
+#menu-items {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+#menu-bottom {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
 .menu {
     height: 200px;
     width: 300px;
@@ -83,3 +96,10 @@ ul {
   width: 300px;
   text-align: center;  
 }
+
+.caption h4 {
+    margin: 10px;
+}
+
+/* Locations */
+
