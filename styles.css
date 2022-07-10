@@ -64,3 +64,22 @@ ul {
 
 /* Steeping */
 
+
+#whats-steeping {
+    width: 1000px;
+    margin: auto;
+}
+
+#tea-text {
+    text-align: center;
+}
+
+.menu {
+    height: 200px;
+    width: 300px;
+}
+
+.caption {
+  width: 300px;
+  text-align: center;  
+}
